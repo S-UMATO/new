@@ -52,12 +52,23 @@ namespace mini_p
         private void InitializeDataGridView()
         {
             // Add rows with predefined data
-            dataGridView1.Rows.Add("1", "Product Name", "10", "5.00", "50.00", "Pending");
-            dataGridView1.Rows.Add("2", "Another Product", "5", "8.00", "40.00", "Completed");
-            dataGridView1.Rows.Add("1", "Product Name", "10", "5.00", "50.00", "Pending");
-            dataGridView1.Rows.Add("2", "Another Product", "5", "8.00", "40.00", "Completed");
-            dataGridView1.Rows.Add("1", "Product Name", "10", "5.00", "50.00", "Pending");
-            dataGridView1.Rows.Add("2", "Another Product", "5", "8.00", "40.00", "Completed");
+            dataGridView1.Rows.Add("1", "iPhone 13", "2", "7999", "15998", "Livré");
+            dataGridView1.Rows.Add("2", "MacBook Pro 13", "1", "14999", "14999", "Livré");
+            dataGridView1.Rows.Add("3", "Samsung Galaxy S21", "3", "8999", "26997", "Livré");
+            dataGridView1.Rows.Add("4", "Dell XPS 13", "1", "12999", "12999", "Livré");
+            dataGridView1.Rows.Add("5", "Huawei P40 Pro", "2", "7499", "14998", "Livré");
+            dataGridView1.Rows.Add("6", "Lenovo ThinkPad X1", "1", "11999", "11999", "Livré");
+            dataGridView1.Rows.Add("7", "Google Pixel 6", "3", "7499", "22497", "Livré");
+            dataGridView1.Rows.Add("8", "Asus ZenBook 14", "1", "9999", "9999", "Livré");
+            dataGridView1.Rows.Add("9", "Samsung Galaxy Note 20", "2", "10999", "21998", "Livré");
+            dataGridView1.Rows.Add("10", "HP Spectre x360", "1", "13999", "13999", "Livré");
+            dataGridView1.Rows.Add("11", "iPhone 12", "2", "6999", "13998", "Livré");
+            dataGridView1.Rows.Add("12", "Asus ROG Zephyrus G14", "1", "17999", "17999", "Livré");
+            dataGridView1.Rows.Add("13", "OnePlus 9 Pro", "3", "7999", "23997", "Livré");
+            dataGridView1.Rows.Add("14", "Microsoft Surface Laptop 4", "1", "12999", "12999", "Livré");
+            dataGridView1.Rows.Add("15", "Xiaomi Mi 11", "2", "5999", "11998", "Livré");
+            dataGridView1.Rows.Add("16", "Acer Predator Helios 300", "1", "14999", "14999", "Livré");
+
             // Add more rows as needed
         }
     }
